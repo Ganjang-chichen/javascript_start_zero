@@ -2,7 +2,7 @@
 - - -   
 
 ## 0 변수
-    ###0.1
+
     Wrapper 클래스 Wrapping
 
     부울 : boolean   
@@ -17,7 +17,9 @@
     if(y === undifind) (O)   
     if(Y === "undifind") (X)  
 
-## 1 array
+## 1 array [예제](./array.html, "예제")
+### 1.0 배열
+    배열 기본 사용법 var arr = new Array();
 ##
 
      
