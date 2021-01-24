@@ -17,7 +17,7 @@
     if(y === undifind) (O)   
     if(Y === "undifind") (X)  
 
-## 1 array [예제](../../array.html, "예제")
+## 1 array [예제](01array.html, "예제")
 ### 1.0 배열
     배열 기본 사용법 var arr = new Array();
 ##
