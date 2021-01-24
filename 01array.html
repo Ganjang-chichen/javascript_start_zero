@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        console.log("배열 기본")
+        var nums = new Array();
+
+        nums.push(3);
+        nums.push(3);
+        nums.push(3);
+
+        console.log(nums);
+
+        var n1 = nums[2];
+        console.log(nums.pop());
+
+        var numb = new Array();
+        numb[4] = 2;
+        console.log(numb);
+
+        // 배열 객체 초기화
+        // 어레이에는 어떠한 것도 들어가지만 그덕에 오류 발생 가능성 조심해야됨
+        console.log("\n배열 객체 초기화");
+        var arr1 = new Array();
+        console.log(arr1);
+        var arr1 = new Array(5);
+        console.log(arr1);
+        var arr1 = new Array(5,10,21);
+        console.log(arr1);
+        var arr1 = new Array(5,10,21,"hello");
+        console.log(arr1);
+        var arr1 = new Array(5,10,21,"hello", new Array(2,3,4));
+        console.log(arr1);
+
+        for(i =0; i < arr1.length; i++){
+            console.log(`${i}번째 값 : ${arr1[i]}, 타입 : ${typeof(arr1[i])} `);
+        }
+
+        // splice
+        console.log("\nsplice 메소드를 이용한 데이터 관리");
+        var arr1 = new Array(5,10,21,"hello"); //원본배열
+        console.log("원본 배열 : " + arr1);
+
+        arr1.splice(1); // 1번째 이후 삭제
+        console.log(arr1);
+        
+        var arr1 = new Array(5,10,21,"hello");
+        arr1.splice(1,1); // 1번째 이후 1개 삭제
+        console.log(arr1);
+
+        var arr1 = new Array(5,10,21,"hello");
+        arr1.splice(1,2); // 1번째 이후 2개 삭제
+        console.log(arr1);
+
+        var arr1 = new Array(5,10,21,"hello");
+        arr1.splice(1, 0, "hoho"); // 1번째 위치에 "hoho" 삽입
+        console.log(arr1);
+
+        var arr1 = new Array(5,10,21,"hello");
+        arr1.splice(1, 1, "hoho"); // 1번째 위치에 "hoho" 대체
+        console.log(arr1);
+
+    </script>
+</body>
+</html>
