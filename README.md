@@ -1,7 +1,7 @@
 자바 스크립트 기초
 =======================
 
-    [자바스크립트 강의 강좌 Quick Start + DOM 프로그래밍 for VanillaJS](https://www.youtube.com/playlist?list=PLq8wAnVUcTFWhQrIXNN6kPYXJA6X2IQM4) 강좌를 듣고 실습 및 정리한 문서이다.
+    [자바스크립트(Javascript) 강의 강좌 Quick Start + DOM 프로그래밍 for VanillaJS](https://www.youtube.com/playlist?list=PLq8wAnVUcTFWhQrIXNN6kPYXJA6X2IQM4, "youtube") 강좌를 듣고 실습 및 정리한 문서이다.
 
 - - -   
 
@@ -109,7 +109,7 @@
     위 형식이 편리하기때문에 JSON이 JS 뿐만이 아닌 여러곳에서 많이 쓰이게 됨
 
 ## 참조
-    1. [자바스크립트 강의 강좌 Quick Start + DOM 프로그래밍 for VanillaJS](https://www.youtube.com/playlist?list=PLq8wAnVUcTFWhQrIXNN6kPYXJA6X2IQM4)
+    1. [자바스크립트(Javascript) 강의 강좌 Quick Start + DOM 프로그래밍 for VanillaJS](https://www.youtube.com/playlist?list=PLq8wAnVUcTFWhQrIXNN6kPYXJA6X2IQM4 ,"youtube")
 
 
      
