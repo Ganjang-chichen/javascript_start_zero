@@ -1,7 +1,9 @@
 자바 스크립트 기초
 =======================
 
-    [자바스크립트(Javascript) 강의 강좌 Quick Start + DOM 프로그래밍 for VanillaJS](https://www.youtube.com/playlist?list=PLq8wAnVUcTFWhQrIXNN6kPYXJA6X2IQM4, "youtube") 강좌를 듣고 실습 및 정리한 문서이다.
+    [자바스크립트(Javascript) 강의 강좌 Quick Start + DOM 프로그래밍 for VanillaJS] :
+    <https://www.youtube.com/playlist?list=PLq8wAnVUcTFWhQrIXNN6kPYXJA6X2IQM4/> 
+    위 강좌를 듣고 실습 및 정리한 문서이다.
 
 - - -   
 
