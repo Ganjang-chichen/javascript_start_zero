@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var</title>
+</head>
+<body>
+    <script>
+        
+        // 선언
+        console.log("선언");
+
+        var x = 1; // 변수
+        let y = 2; // 변수
+        const z = 3; // 상수
+
+        // 사실 위의 선언은 아래의 과정을 거침
+        var xx = new Number(404);
+        let yy = new String("Hello Js");
+        const zz = new Boolean(false);
+
+        // 값 변경
+        console.log("값 변경");
+
+        x = 2; // 가능
+        y = 3; // 가능
+        z = 4; // 불가능
+        
+
+        // 재선언
+        console.log("재선언");
+
+        var x; // 가능
+        let y; // 불가능
+        const z; // 불가능
+
+
+
+    </script>
+</body>
+</html>

@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>object</title>
 </head>
 <body>
-    
+    <script>
+        
+        //object 선언
+        console.log("object 선언");
+
+        var exam = new Object();
+        console.log(exam);
+
+        //속성 추가
+        console.log("속성 추가");
+        exam.kor = 30;
+        exam.eng = 70;
+        exam.math = 80;
+        console.log(exam);
+
+        // 키를 통한 관리
+        console.log("키를 통한 관리");
+        exam["kor"] = 40;
+        exam["eng"] = 60;
+        exam["math"] = 90;
+        exam["science"] = 80;
+        console.log(exam);
+
+        //또다른 초기화
+        console.log("또다른 초기화");
+        exam = {"kor" : 40, "eng" : 60, "math" : 90, "science" : {physics : 50, chemistry : 70}};
+        console.log(exam);
+
+    </script>
 </body>
 </html>
