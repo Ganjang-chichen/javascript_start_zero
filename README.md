@@ -11,11 +11,10 @@
 
 #### 0.1.1 var과 let의 차이점
     var과 let의 차이점은 아래 링크의 블로그에 자세히 설명되어있다.
-    [링크](https://velog.io/@bathingape/JavaScript-var-let-const-%EC%B0%A8%EC%9D%B4%EC%A0%90[link])
+    [링크](https://velog.io/@bathingape/JavaScript-var-let-const-%EC%B0%A8%EC%9D%B4%EC%A0%90,"link")
 
 
-### 0.2 
-    Wrapper 클래스 Wrapping
+### 0.2 Wrapper 클래스 Wrapping
 
     변수 타입
     부울 : boolean   
@@ -47,7 +46,22 @@
     위와같이 C나 JAVA 등과 같이 배열 안에 서로 다른 타입을 넣어도 됨
     심지어 object나 또 다른 array도 넣을 수 있음
 
+### 1.1 splice
 
+    splice 메소드를 이용한 array 관리
+    
+        var arr1 = new Array(5,10,21,"hello"); //원본배열
+    [5,10,21,"hello"]
+        arr1.splice(1); // 1번째 이후 삭제
+    [5]
+        arr1.splice(1,1); // 1번째 이후 1개 삭제
+    [5,21,"hello"] 
+        arr1.splice(1,2); // 1번째 이후 2개 삭제
+    [5,"hello"]
+        arr1.splice(1, 0, "hoho"); // 1번째 위치에 "hoho" 삽입
+    [5,"hoho",10,21,"hello"]
+        arr1.splice(1, 1, "hoho"); // 1번째 위치에 "hoho" 대체
+    [5,"hoho",21,"hello"]
 
 ## 참조
     1. 자바스크립트(Javascript) 강의 강좌 Quick Start + DOM 프로그래밍 for VanillaJS: https://www.youtube.com/playlist?list=PLq8wAnVUcTFWhQrIXNN6kPYXJA6X2IQM4
