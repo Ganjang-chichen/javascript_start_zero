@@ -13,6 +13,63 @@
         /*String    |*/ var s = new String("hello");/*|*/   var s = "hello"; var s = 'hello';
         /*Array     |*/ var ar = new Array();       /*|*/   var ar = [];
         /*Object    |*/ var ob = new Object();      /*|*/   var ob = {};
+
+        
+        // 코드를 문자열로 받았을 시 eval 메소드로 코드 실행가능
+        eval('var x = 30;');
+        
+        console.log(x);
+
+        // 일반적으로 외부에서 json 데이타 받았을시
+        var data = '[ \
+            {"id" : "alpha", "pw" : "1234a"}, \
+            {"id" : "beta" , "pw" : "121b"}, \
+            {"id" : "aaaa" , "pw" : "122b"}, \
+            {"id" : "bbbb" , "pw" : "123b"}, \
+            {"id" : "bczc" , "pw" : "125b"} \
+        ]';
+
+        eval("var ar = " + data + ";");
+
+        console.log(ar);
+
+        // Parse 파서 사용
+
+        var data2 = JSON.parse(data);
+
+        console.log(data2);
+
+        // 파서 사용 시 주의사항 : key 값에 반드시 "" 사용할 것
+
+        var data0 = '[ \
+            {id : "alpha", pw : "1234a"}, \
+            {id : "beta" , pw : "121b"}, \
+            {id : "aaaa" , pw : "122b"}, \
+            {id : "bbbb" , pw : "123b"}, \
+            {id : "bczc" , pw : "125b"} \
+        ]'; // 에러 발생
+
+        //var data3 = JSON.parse(data0);
+        //console.log(data3);
+
+        // 다시 문자열 화
+
+        var json = JSON.stringify(data2);
+        
+        console.log(json);
+
+        var data5 = [ 
+            {id : "alpha", pw : "1234a"}, 
+            {id : "beta" , pw : "121b"}, 
+            {id : "aaaa" , pw : "122b"}, 
+            {id : "bbbb" , pw : "123b"}, 
+            {id : "bczc" , pw : "125b"} 
+        ];
+
+        var json2 = JSON.stringify(data5);
+
+        console.log(json2);
+
     </script>
 </body>
 </html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //for-in 문은 key값을 순회한다.
+
+        var ar = ["hello", "hi", "greetings"];
+
+        // for(var i = 0; i < 3; i++){
+        //     document.write(ar[i] + "<br />");
+        // }
+        // 위 주석과 같다.
+        for(var i in ar){
+            document.write(i + " : " + ar[i] + "<br />");
+        }
+
+        var  data = {"id" : 1, "title" : "hello.json"};
+
+        for(var i in data){
+            document.write(i + " : " + data[i] + "<br />");
+        }
+
+    </script>
+</body>
+</html>

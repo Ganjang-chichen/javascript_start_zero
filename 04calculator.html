@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var x = 3;
+        var y = 3;
+
+        console.log(x == y);     //값이 같은가?
+        console.log(x === y);    //주소(박스위치) 값이 같은가?
+
+        var v = 4;
+        var w = new Number(4);
+
+        console.log(v == w);
+        console.log(v === w);
+
+        /*
+        사실 x와 y의 비교와 v와 w의 비교가 다른 이유는 
+        x와 y같이 선언했을 때 x의 박스를 할당 이후 y를 새로 할당하는것이 아닌
+        x와 y의 값이 같기 때문에 y주소를 x와 같은 곳으로 향하게 한다.
+
+        그러나 v와 w 같은 경우 v할당 이후 명시적으로 w를 새로 할당하였기 때문에
+        v의 주소값과 w의 주소값이 일치하지 않는다. 따라서 false를 띄운다.
+        */
+
+        console.log(3 - 2);
+        console.log(3 - "2");
+        console.log("3" - 2);
+        console.log("3" - "2");
+        console.log(5 > 3 - 2);
+        console.log(5 > "3");
+        console.log("5" > 3);
+        console.log("5" > "3");
+        console.log("3" - "2s");
+
+    </script>
+</body>
+</html>
