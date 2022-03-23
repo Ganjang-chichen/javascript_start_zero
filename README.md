@@ -7,7 +7,7 @@
 
 - - -   
 
-## 0 변수 [예제]("00variation.html")
+## 0 변수 [예제](00variation.html)
 
 ### 0.1 변수 선언
     var x; //변수
@@ -36,7 +36,7 @@
     if(w === undefind){} (O)   
     if(w === "undefind"){} (X)  
 
-## 1 array [예제]("01array.html")
+## 1 array [예제](01array.html)
 ### 1.0 배열
     배열 기본 사용법
         var arr = new Array();
@@ -73,7 +73,7 @@
     arr1.splice(1, 1, "hoho"); // 1번째 위치에 "hoho" 대체
         [5,"hoho",21,"hello"]
 
-## 2 object [링크]("02object.html")
+## 2 object [링크](02object.html)
 ### 2.0 object 선언
 
     var exam = new Object();
@@ -102,7 +102,7 @@
         
    
 
-## 3 json [링크]("03json.html")
+## 3 json [링크](03json.html)
 ### 3.1 JavaScript Object Notation >> JSON
     /*          |    JavaScript Object            |     JavaScript Object Notation(JSON)*/
     /*Boolean   |*/ var b = new Boolean(true);  /*|*/   var b = true;
@@ -191,7 +191,7 @@
 
             [{"id":"alpha","pw":"1234a"},{"id":"beta","pw":"121b"},{"id":"aaaa","pw":"122b"},{"id":"bbbb","pw":"123b"},{"id":"bczc","pw":"125b"}]
 
-## 4  연산자 [링크]("04calculator.html")
+## 4  연산자 [링크](04calculator.html)
 ### 4.1 == === 의 차이
         
     A == B : A 와 B의 값이 같은가?
@@ -232,7 +232,7 @@
         console.log("5" > "3"); // true
         console.log("3" - "2s");// NaN (숫자가 아님을 뜻함)
 
-## 5  제어구조 [링크]("05control_structure.html")
+## 5  제어구조 [링크](05control_structure.html)
 ### 제어구조 종류
     조건문 : if, while, do-while
     반복문 : while, for, for-in
